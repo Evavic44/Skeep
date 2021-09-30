@@ -192,13 +192,13 @@ ul {
   #hero::before {
     content: "";
     position: absolute;
-    top: 170px;
+    top: 200px;
     right: 0px;
-    width: 600px;
+    width: 330px;
     height: 400px;
     background: url(img/hand.png) no-repeat center center/cover;
     z-index: -10;
-    transform: rotate(-10deg) translate(180px);
+    transform: rotate(-10deg) translate(100px);
     mix-blend-mode: hard-light;
   }
 }
