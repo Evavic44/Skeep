@@ -158,6 +158,10 @@ ul {
     margin: 0 1rem;
   }
 
+  #logo img {
+    width: 40px;
+  }
+
   #hero .content h1 {
     line-height: 2.5rem;
     font-size: 2rem;
@@ -190,11 +194,11 @@ ul {
     position: absolute;
     top: 170px;
     right: 0px;
-    width: 400px;
+    width: 600px;
     height: 400px;
     background: url(img/hand.png) no-repeat center center/cover;
     z-index: -10;
-    transform: rotate(-10deg) translate(100px);
+    transform: rotate(-10deg) translate(180px);
     mix-blend-mode: hard-light;
   }
 }
