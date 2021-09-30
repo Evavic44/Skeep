@@ -7,14 +7,14 @@
 }
 
 :root {
-  --primary-color: purple;
+  --primary-color: #e45be4;
   --secondary-color: #7873c3;
+  --other-color: orangered;
 }
 
 body {
   background: linear-gradient(
-    to left,
-    #7d78c7,
+    to right,
     var(--secondary-color),
     var(--primary-color)
   );
@@ -23,7 +23,7 @@ body {
 }
 
 #logo img {
-  width: 90px;
+  width: 45px;
 }
 
 a {
@@ -41,7 +41,7 @@ a {
 }
 
 .btn-primary {
-  background: orangered;
+  background: var(--other-color);
   border: transparent;
   color: var(--secondary-color);
   color: #fff;
@@ -53,7 +53,7 @@ a {
 
 .btn-primary:hover {
   background: #fff;
-  color: orangered;
+  color: var(--other-color);
 }
 
 ul {
@@ -121,7 +121,7 @@ ul {
 }
 
 .hero-buttons a {
-  margin-right: 0.7rem;
+  margin: 0.3rem;
 }
 
 /* Dashboard */
@@ -131,4 +131,42 @@ ul {
   justify-content: center;
   padding: 1rem;
   margin-top: 3rem;
+}
+
+.dashboard img {
+  width: 800px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar ul li {
+    margin: 0 1rem;
+  }
+
+  #hero .content h1 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .dashboard img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  #hero .content {
+    margin-top: 1.8rem;
+  }
+
+  #hero h1 {
+    font-weight: 400;
+  }
 }
