@@ -35,7 +35,7 @@
 
         <div class="hero-buttons">
           <a href="#" class="btn btn-primary">get started</a>
-          <a href="#" class="btn">try for free</a>
+          <a href="#" class="btn btn-secondary">try for free</a>
         </div>
       </div>
 
@@ -74,6 +74,24 @@
           </a>
         </section>
       </div>
+
+      <script>
+        (function (d, t) {
+          var BASE_URL = "https://app.chatwoot.com";
+          var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+          g.src = BASE_URL + "/packs/js/sdk.js";
+          g.defer = true;
+          g.async = true;
+          s.parentNode.insertBefore(g, s);
+          g.onload = function () {
+            window.chatwootSDK.run({
+              websiteToken: "4qXSXb7ULuE2PGFR2WsqoTk5",
+              baseUrl: BASE_URL,
+            });
+          };
+        })(document, "script");
+      </script>
     </main>
   </body>
 </html>

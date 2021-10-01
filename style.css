@@ -64,6 +64,12 @@ a {
   color: var(--other-color);
 }
 
+.btn-secondary {
+  background: #7873c3;
+  border: none;
+  padding: 0.7rem 1.9rem;
+}
+
 ul {
   list-style: none;
 }
