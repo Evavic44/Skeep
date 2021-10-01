@@ -42,16 +42,15 @@ a {
 .btn {
   display: inline-block;
   border: 1px solid #fff;
-  border-color: rgba(255, 255, 255, 0.5);
   border-radius: 30px;
   padding: 0.7rem 1.7rem;
 }
 
 .btn-primary {
   background: var(--other-color);
-  border: transparent;
   color: var(--secondary-color);
   color: #fff;
+  border-color: transparent;
 }
 
 .btn:hover {
@@ -74,6 +73,7 @@ ul {
   justify-content: space-around;
   padding: 1.5rem;
   height: 120px;
+  width: 100%;
 }
 
 .navbar ul {
@@ -161,12 +161,20 @@ ul {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .navbar {
+    margin: 0.5rem 0 1rem;
+  }
+
   .navbar ul li {
     margin: 0 1rem;
   }
 
   #logo img {
     width: 40px;
+  }
+
+  #hero .content {
+    margin-top: 3rem;
   }
 
   #hero .content h1 {
@@ -196,31 +204,20 @@ ul {
     height: 100%;
   }
 
-  #hero .content {
-    margin-top: 1.8rem;
-  }
-
   #hero h1 {
     font-weight: 400;
   }
 
   #hero::before {
-    content: "";
-    position: absolute;
     top: 170px;
-    right: 0px;
     width: 800px;
     height: 500px;
     background: url(img/hand.png) no-repeat center center/cover;
-    z-index: -10;
     transform: rotate(-30deg) translate(190px);
-    mix-blend-mode: hard-light;
+    mix-blend-mode: none;
   }
 
   #hero .content {
-    background: rgba(255, 255, 255, 0.2);
     margin: 0 1rem;
-    border: 1px solid #f4f4f4;
-    border-radius: 10px;
   }
 }
