@@ -22,8 +22,9 @@
 }
 
 #about {
-  background: #222;
-  color: white;
+  background: url(img/skeep-bg.jpg) no-repeat left center / cover;
+  background: #e9e9eb;
+  color: var(--text-color);
   font-family: "Poppins", sans-serif;
 }
 
@@ -34,14 +35,8 @@
   font-size: 1.1rem;
 }
 
-#home a {
+a {
   color: #333;
-  text-decoration: none;
-  transition: 0.3s ease-in-out;
-}
-
-#about a {
-  color: #fff;
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
