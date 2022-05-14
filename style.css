@@ -137,7 +137,7 @@ ul {
   overflow-x: hidden;
 }
 
-#hero::before {
+/* #hero::before {
   content: "";
   position: absolute;
   top: 170px;
@@ -148,7 +148,7 @@ ul {
   z-index: -10;
   transform: rotate(-30deg) translate(190px);
   mix-blend-mode: hard-light;
-}
+} */
 
 #hero .content {
   display: flex;
