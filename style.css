@@ -14,10 +14,16 @@
   --text-color: #333;
 }
 
-body {
+#home {
   background: #e9e9eb;
   background: url(img/skeep-bg.jpg) no-repeat left center / cover;
   color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+#about {
+  background: #222;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -131,7 +137,7 @@ ul {
   overflow-x: hidden;
 }
 
-/* #hero::before {
+#hero::before {
   content: "";
   position: absolute;
   top: 170px;
@@ -142,7 +148,7 @@ ul {
   z-index: -10;
   transform: rotate(-30deg) translate(190px);
   mix-blend-mode: hard-light;
-} */
+}
 
 #hero .content {
   display: flex;

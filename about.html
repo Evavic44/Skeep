@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Keep community, opensource" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes=512x512" href="/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes=192x192" href="/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/ico" sizes=192x192" href="/favicon/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/d9fe1688ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>About | Skeep</title>
+  </head>
+  <body id="about">
+    <header id="hero">
+      <nav class="navbar">
+        <h1 id="logo">
+          <a href="#">Skeep</a>
+        </h1>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Meeting</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Info</a></li>
+        </ul>
+
+        <a href="#" class="btn">Join Us</a>
+      </nav>
+
+      <div class="content">
+        <h1>Learn how Skeep is transforming lives around the world</h1>
+        <p>Want to join the community, send us an invite using the links below and we will get back to you as soon as possible</p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary">Sign Up</a>
+          <a href="#" class="btn btn-secondary">Sign In</a>
+        </div>
+      </div>
+
+      <section class="dashboard">
+        <img src="img/banner.png" alt="Dashboard image" />
+      </section>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1 class="heading">Skeep Community is here for you</h1>
+        <section class="tools">
+          <a href="#" class="card">
+            <i class="fas fa-briefcase"></i>
+            <h3>Projects</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+              vitae repellendus, perspiciatis nesciunt quidem ad!
+            </p>
+          </a>
+          <a href="#" class="card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Ideas</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+              vitae repellendus, perspiciatis nesciunt quidem ad!
+            </p>
+          </a>
+          <a href="#" class="card">
+            <i class="fas fa-tv"></i>
+            <h3>Live Stream</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+              vitae repellendus, perspiciatis nesciunt quidem ad!
+            </p>
+          </a>
+        </section>
+      </div>
+    </main>
+    
+    <!-- Live chat -->
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://app.chatwoot.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'kHioTpc53yJqkuNvZkSfUAn1',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+  </body>
+</html>
