@@ -34,8 +34,14 @@
   font-size: 1.1rem;
 }
 
-a {
+#home a {
   color: #333;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+#about a {
+  color: #fff;
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
